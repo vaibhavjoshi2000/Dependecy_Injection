@@ -1,0 +1,11 @@
+﻿
+
+1) Create Interface
+2) Create a class which implement the interface
+3)Register your service inside the Program.cs file write before you build the application.
+ i.e Before (var app = vuilder.Build()) we have to register services in container.
+4)Take the service from the Dependency Injection inside of the constructor 
+  and you can do in every controller.
+
+How we can use this services in Controller?
+=>We will make constructor to get Services from the dependency Injection
